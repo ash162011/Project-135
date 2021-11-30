@@ -1,0 +1,51 @@
+body{
+     background:urL("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-56_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ec3ef5fbd6338493f4cab901659c8b72");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.heading{
+     top: 0px;
+     width: 100%;
+     font-size:20px;
+     padding: 10px;
+}
+
+canvas{
+     animation-name: hi;
+     animation-iteration-count: infinite;
+     animation-duration: 2s;
+}
+
+@keyframes hi{
+     from{box-shadow: 1px 1px 38px white;}
+     to{box-shadow: 1px 1px 38px #ddc2ff;}
+}
+
+.copy_right_footer{
+     width: 100%;
+     color: black;
+     background:white;
+     position: fixed;
+     bottom: 0;
+     padding:10px;
+     font-size: 20px;
+}
+
+#object{
+     border-radius: 20px;
+     border-color: transparent;
+     width: 300px;
+     text-align: center;
+     height: 35px;
+}
+
+label{
+     color:white;
+}
+
+#status{
+     padding: 5px;
+     width: 300px;
+     border-radius: 20px;
+}
